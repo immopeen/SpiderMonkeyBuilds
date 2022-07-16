@@ -12,7 +12,7 @@ There are 3 x64 builds in this repo, seperated into subdirectories:
 ## Usage
 
 1. Choose from the Release, DebugOptimized, or Debug builds in this repo
-1. (Optional) Add or copy the `include` directory to to the include path, or you can rely on the header files already present in D2BS (they are the same versions as in this repo)
+1. (Optional) Add or copy the `include` directory to to the include path, or you can rely on the header files already present in D2BS (they are the same versions as this repo's Debug and DebugOptimized builds)
 1. Add the `mozjs.lib` dynamic library
 1. Set the `JS_USE_JSID_STRUCT_TYPES` preprocessor macro for DebugOptimized or Debug builds to avoid linker errors
 1. `LoadLibrary` or otherwise load `mozjs.dll` into the process before using any SpiderMonkey features
